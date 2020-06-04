@@ -26,7 +26,7 @@ class App extends Component {
 
   render() {
     const { user } = this.state;
-    console.log(process.env,"ENV")
+
     return (
       <React.Fragment>
         <ToastContainer />

@@ -4,8 +4,6 @@ import { toast } from "react-toastify";
 
 axios.defaults.baseURL = process.env.REACT_APP_API_URL;
 
-console.log(axios.defaults.baseURL,"BASEURL")
-
 axios.interceptors.response.use(null, error => {
   const expectedError =
     error.response &&
